@@ -46,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("article"). value = "";
       }
     })
-
   });
 
   document.getElementById("buttonClear").addEventListener("click", function () {
