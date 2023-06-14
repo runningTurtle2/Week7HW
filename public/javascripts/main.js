@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("article"). value = "";
       }
     })
+
   });
 
   document.getElementById("buttonClear").addEventListener("click", function () {
@@ -82,7 +83,7 @@ function createList() {
         "</a><br>" +
         '<iframe width="560" height="315" src="' + aGame.URL +
         '" title= "YouTube video player"' +
-        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen></iframe><br><br>';
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "allowfullscreen></iframe><br><br>';
       myUL.appendChild(myLi);
     });
 

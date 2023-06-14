@@ -77,7 +77,6 @@ router.post('/addGame', function(req, res){
 
 // add route for delete
 router.delete('/deleteGame/:ID', (req, res) => {
-  console.log('in server');
   const delID = req.params.ID;
 
   let found = false;
